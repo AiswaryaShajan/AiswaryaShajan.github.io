@@ -1,5 +1,21 @@
 # MSc Robotics Dissertation Log - Porter Robot
 
+## My first idea (The "What?")
+The idea for this project came from noticing a common household struggle. It is a hassle for my father to carry heavy monthly groceries or for my sister to balance bulky shopping bags while managing a toddler. Moving these loads from the building parking lot or lobby up to the apartment door is a recurring physical strain.
+The idea is to have a porter assistant which carries the cargo for you. Instead of carrying heavy bags or making multiple trips, you just load up the robot. It handles the lifting and follows you safely right upto your destination (Ex: from basement to your apartment door).
+
+I wanted to design something that the residents can share. To see if this was a widespread issue, I ran a WhatsApp poll among the residents in my apartment building. The results were clear: neighbors actively face this same bottleneck and would gladly utilize a shared indoor transport assistant.
+
+## Does this kind of robot already exist? What would be my improvement? (The "Why"?)
+Companies already make robots that can follow people or carry cargo. Some examples are:
+Piaggio Gita - a personal robot assistant
+Starship robot - famous little cooler-shaped robots that drive around university campuses to deliver food.
+EffiBOT / Industrial AMRs: Heavy-duty robots used in giant DHL warehouses to follow workers and carry massive loads.
+While these examples are incredible, they can be expensive and less practical for a shared residential setting. So the goal is to build an affordable version that is designed to specifically navigate tight hallways, standard doorways and handle lighting changes. 
+
+## Roadmap (The "How"?)
+
+
 ## Week 1 (04 - 10 June 2026)
 **Focus: Chassis research, early prototyping, CAD learning, and motor requirements.**
 
