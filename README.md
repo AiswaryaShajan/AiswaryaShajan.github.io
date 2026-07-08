@@ -1,10 +1,11 @@
-# MSc Robotics Dissertation Log - Porter Robot
+# MSc Robotics Dissertation Log – Battery Analysis for an Indoor Porter Robot
 
 ## My first idea (The "What?")
-The idea for this project came from noticing a common household struggle. It is a hassle for my father to carry heavy monthly groceries or for my sister to balance bulky shopping bags while managing a toddler. Moving these loads from the building parking lot or lobby up to the apartment door is a recurring physical strain.
-The idea is to have a porter assistant which carries the cargo for you. Instead of carrying heavy bags or making multiple trips, you just load up the robot. It handles the lifting and follows you safely right upto your destination (Ex: from basement to your apartment door).
+The idea for this project came from noticing a common household challenge. It is often difficult for my father to carry heavy monthly groceries or for my sister to manage bulky shopping bags while looking after a toddler. Transporting these items from the building parking area or lobby to the apartment involves significant physical effort and often requires multiple trips.
 
-I wanted to design something that the residents can share. To see if this was a widespread issue, I ran a WhatsApp poll among the residents in my apartment building. The results were clear: neighbors actively face this same bottleneck and would gladly utilize a shared indoor transport assistant.
+My initial idea was to develop an autonomous indoor porter robot that could carry shopping bags and follow a resident to their apartment. The aim was to create a shared robotic assistant that residents within an apartment building could use whenever required.
+
+To understand whether this problem was experienced by others, I conducted a WhatsApp poll among residents in my apartment building. The responses indicated that many neighbours face the same difficulty and expressed interest in using a shared indoor transport robot.
 
 ## Does this kind of robot already exist? What would be my improvement? (The "Why"?)
 Companies already make robots that can follow people or carry cargo. Some examples are:
@@ -13,10 +14,16 @@ Starship robot - famous little cooler-shaped robots that drive around university
 EffiBOT / Industrial AMRs: Heavy-duty robots used in giant DHL warehouses to follow workers and carry massive loads.
 While these examples are incredible, they can be expensive and less practical for a shared residential setting. So the goal is to build an affordable version that is designed to specifically navigate tight hallways, standard doorways and handle lighting changes. 
 
+## The Refined Idea
+My initial intention was to design and prototype an affordable porter robot suitable for indoor apartment environments. However, after reviewing the project requirements and discussing the scope with my supervisor, it became clear that developing and validating every subsystem including mechanical design, navigation, human following, obstacle avoidance and system integration would exceed the available project timeframe.
+
+As a result, the dissertation scope was refined. Instead of implementing a complete autonomous porter robot, the project now focuses on one of its key engineering subsystems: analysing and comparing battery technologies for an indoor porter robot. The robot platform is therefore treated as the application case study while the dissertation investigates battery performance, runtime, weight, cost and suitability for the intended operating conditions.
+
+
 ## Roadmap (The "How"?)
 
 
-## Week 1 (04 - 10 June 2026)
+## Week 1 (25 June - 02 July 2026)
 **Focus: Chassis research, early prototyping, CAD learning, and motor requirements.**
 
 I started this week by exploring different chassis designs for my human‑following robot. I looked at wooden and aluminium builds, paying close attention to how others mounted motors, arranged electronics, and balanced payload. Projects like the [“Follow‑Me Cooler”](https://www.hackster.io/hackershack/make-an-autonomous-follow-me-cooler-7ca8bc) and ["Covid Bot"](https://www.hackster.io/343328/p3psi-a-web-driven-covid-19-carrier-robot-eab65a) gave me useful ideas such as using 3D‑printed brackets, LiPo batteries (lightweight and less power consumption),simple two‑wheel drive setups and neat ABS electrical enclosures. This early research helped me understand what kind of structure would be practical for my own design.
@@ -45,14 +52,11 @@ Toward the end of the week, I focused on motor research. I studied DC gear motor
 </div>
 
 
-## Week 2 (11 - 17 June 2026)
-* **Focus: Human‑following research, tracking algorithms, mini‑robot experiments, and early electronics testing.**
-- Shifted toward the software and sensing side of the project. I researched human‑following methods such as Bluetooth, UWB [[1]](https://www.proquest.com/docview/3188899797?accountid=12441&parentSessionId=nhQnlnMhFZaP3jBT3qcdB5s8jbQfOx79nXVwf5isG4g%3D&pq-origsite=primo&sourcetype=Scholarly%20Journals), and camera‑based tracking, and set up a ROS repository. I reviewed academic papers on indoor localization and human‑following robots, learning about perception layers, tracking algorithms like SORT/DeepSORT, and the importance of re‑identification during occlusions[[2]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10910101). 
+## Week 2 (03 - 10 July 2026)
+* **Focus: Literature Review and ordering all parts (motors, wheels, casters, Raspberry Pi, INA219, driver, battery).**
+- Rather than finalising a research question immediately, I started reading relevant papers to understand the current research and identify potential gaps.
 
-I also explored evaluation metrics such as accuracy, precision, recall, and F‑score. To experiment practically, I ordered a small robot kit and assembled it, though it required soldering equipment I didn’t have. I attempted a temporary wiring setup using Arduino, and I will implement the camera based human following logic on this mini robot first before I attempt to upscale it.
+My initial research focus is to investigate how the carried load affects a porter robot's energy consumption and what this means for battery sizing, daily runtime and recharge cycles in a residential building. However, I expect the research question to be refined as I continue reviewing the literature.
 
-<div align="center">
-  <img width="335" height="300" alt="image" src="https://github.com/user-attachments/assets/74411356-17b3-4802-b9a9-524cfddb6a46" />
-  <p><i>Figure 4: Toy Robot Kit</i></p>
-</div>
+Alongside the literature review, I also began researching suitable motors and wheels for the robot, as these components directly influence the robot's power requirements and battery selection.
 
