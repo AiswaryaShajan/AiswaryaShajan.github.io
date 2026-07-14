@@ -60,3 +60,15 @@ My initial research focus is to investigate how the carried load affects a porte
 
 Alongside the literature review, I also began researching suitable motors and wheels for the robot, as these components directly influence the robot's power requirements and battery selection.
 
+## Week 3 (10 – 14 July 2026)
+* **Focus: Hardware acquisition and software environment setup.**
+
+This week, the hardware procurement process was completed by collecting the Raspberry Pi 5 from the laboratory and finalising the remaining component orders. Some component selections were revised due to availability and specification constraints.
+
+* **Components Acquired**
+- Raspberry Pi 5
+- DC geared motors with wheel and encoder (12V /20RPM)
+- Li-ion 3S Battery
+- Power bank (for RPi)
+
+The software development environment was also set up by installing WSL, Ubuntu, and ROS 2 Humble. The installation was verified by successfully running the teleoperation package, providing the foundation for subsequent robot development.
