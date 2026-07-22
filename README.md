@@ -60,15 +60,30 @@ My initial research focus is to investigate how the carried load affects a porte
 
 Alongside the literature review, I also began researching suitable motors and wheels for the robot, as these components directly influence the robot's power requirements and battery selection.
 
-## Week 3 (10 – 14 July 2026)
-* **Focus: Hardware acquisition and software environment setup.**
+## Week 3 (10 – 16 July 2026)
+* **Focus: Hardware acquisition, software environment setup, CAD drawing.**
 
 This week, the hardware procurement process was completed by collecting the Raspberry Pi 5 from the laboratory and finalising the remaining component orders. Some component selections were revised due to availability and specification constraints.
 
-* **Components Acquired**
+**Components Acquired**
 - Raspberry Pi 5
 - DC geared motors with wheel and encoder (12V /20RPM)
 - Li-ion 3S Battery
 - Power bank (for RPi)
 
 The software development environment was also set up by installing WSL, Ubuntu, and ROS 2 Humble. The installation was verified by successfully running the teleoperation package, providing the foundation for subsequent robot development.
+
+**CAD Drawing**
+- After becoming familiar with the basics of CAD modelling in Onshape, I began designing the robot and assembling its individual components. The current design consists of a lower enclosure to house the electronics, with the drive motors mounted inside such that the motor shafts extend through the side walls to accommodate the wheels. A removable lid is fitted to the enclosure, and a loading platform is supported above it using spacers.
+The CAD models for the JGB-37 motors, 65 mm wheels, motor brackets, and shaft couplers were obtained from GrabCAD, while the spacer model was sourced from the McMaster-Carr library. The progression of the design is shown below.
+
+<div align="center">
+  <img width="1030" height="198" alt="image" src="https://github.com/user-attachments/assets/d48e32b3-30d8-4671-aade-4ea299972ef6" />
+  <p><i>Figure 4: CAD Progression</i></p>
+</div>
+
+- Problem encountered - During the initial assembly, it was observed that the drive wheels do not make contact with the ground. Further evaluation of the chassis dimensions, motor mounting position, and wheel arrangement is required to resolve this issue. The caster wheels were not selected at this point and will only be incorporated in the later design iteration.
+
+## Week 4 (17 – 24 July 2026)
+* **Focus: CAD refinement,Pi-ROS installation, and Methodology research .**
+
