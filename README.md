@@ -15,10 +15,9 @@ EffiBOT / Industrial AMRs: Heavy-duty robots used in giant DHL warehouses to fol
 While these examples are incredible, they can be expensive and less practical for a shared residential setting. So the goal is to build an affordable version that is designed to specifically navigate tight hallways, standard doorways and handle lighting changes. 
 
 ## The Refined Idea
-My initial intention was to design and prototype an affordable porter robot suitable for indoor apartment environments. However, after reviewing the project requirements and discussing the scope with my supervisor, it became clear that developing and validating every subsystem including mechanical design, navigation, human following, obstacle avoidance and system integration would exceed the available project timeframe.
+My initial intention was to design and prototype an affordable porter robot suitable for indoor apartment environments. However, after reviewing the project requirements and discussing the scope with my supervisor, it became clear that developing and validating every subsystem—including mechanical design, navigation, human following, obstacle avoidance, and system integration—would exceed the available project timeframe.
 
-As a result, the dissertation scope was refined. Instead of implementing a complete autonomous porter robot, the project now focuses on one of its key engineering subsystems: analysing and comparing battery technologies for an indoor porter robot. The robot platform is therefore treated as the application case study while the dissertation investigates battery performance, runtime, weight, cost and suitability for the intended operating conditions.
-
+As a result, the dissertation scope was refined. Rather than implementing and evaluating a fully autonomous porter robot, the project now focuses on investigating **how carried load affects a porter robot's energy consumption per trip, and what this means for daily runtime and recharge cycles in a representative residential building**. The robot platform will serve as the experimental case study, with energy consumption measured under different payload conditions. The findings will be used to estimate the robot's daily operating requirements, providing information that can help building owners and facility managers better understand the robot's energy demand, operating cost, and potential return on investment (ROI) before deployment.
 
 ## Roadmap (The "How"?)
 
